@@ -11,7 +11,7 @@ return  {
     vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal left<CR>', {})
     vim.keymap.set('n', '<C-m>', ':Neotree close<CR>', {})
     vim.keymap.set('n', '<leader>ga', ':Neotree git_add_file', {})
-    vim.keymap.set('n', '=', ':vertical resize +3 ', {})
-    vim.keymap.set('n', '-', ':vertical resize -3 ', {})
+    vim.keymap.set('n', '=', ':vertical resize +3<CR>', {})
+    vim.keymap.set('n', '-', ':vertical resize -3<CR>', {})
   end
 }
